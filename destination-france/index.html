@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&family=Viga&display=swap" rel="stylesheet"> 
+  <link rel="icon" href="favicon.ico" />
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/navbar.css">
+  <title>Destination France</title>
+</head>
+<body class="redcolor">
+  <header class="headertest">
+    <nav class="navbar navbar-expand-lg redcolor fixed-top">
+      <div class="container-fluid">
+        <a class="logo navbar-brand" href="index.html"><img class="logo" src="img/logo3.png" alt="logo"></a>
+        <a href="javascript:history.back()"><img src="ico/flecheretour.png" class="mx-2"></a>
+        <h5 class=" viga my-2 colorWhite"><strong>DESTINATION FRANCE</strong> </h5>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+          aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse text-light" id="navbarScroll">
+          <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll mx-2" style="--bs-scroll-height: 100px;">
+            <li class="nav-item">
+              <a class="nav-link active link-light" aria-current="page" href="#">Acceuil</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle link-light" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Mon compte
+              </a>
+              <ul class="dropdown-menu redcolor">
+                <li class="navBarLink"><a class="dropdown-item link-light"
+                    href="connexion/connexion.html">Connexion</a></li>
+                <li class="navBarLink"><a class="dropdown-item link-light" data-toggle="modal" data-target="#modalContent"
+                    href="connexion/inscription.html#modalZ">Inscription</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li class="navBarLink"><a class="dropdown-item link-light" href="#">Nos reseaux</a></li>
+              </ul>
+          </ul>
+          <form class="d-flex bg-light my-2" role="search">
+            <input class="form-control" type="search" placeholder="Rechercher" aria-label="Search">
+            <button class="btn btn-outline-danger" type="submit">Lancer</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- <nav>
+      
+
+      <input type="text" class="searchbar" placeholder="search...">
+
+      <img class="boutonconnexion" src="./img/bouton-connexion.png" alt="bouton connexion">
+
+      <button class="boutonconnexion fonts button" data-modal="modalOne"></button>
+
+      <a class="navbar-brand" href="./index.html"><img class="logo" src="./img/logo 1.png" alt="logo"></a>
+
+      <img class="boutoninscription" src="./img/bouton-inscription.png" alt="bouton inscription">
+
+      <button class="boutoninscription button" data-modal="modalTwo"></button>
+
+    </nav> -->
+  </header>
+  <main>
+    <div class="container-fluide min-vh-11">
+    </div>
+    <div class="banniereimage">
+      <div class="backgroundpaysage">
+        <h1 class="titrecarte colorWhite">Carte interactive des régions</h1>
+        <img src="img/carte-france-regions.png" alt="Les régions de France" usemap="#reg" class="centrercarte">
+        <map name="reg">
+          <area shape="poly" coords="239,51,239,65,238,74,239,82,233,87,240,96,244,102,242,
+                        107,242,117,244,126,251,129,241,131,257,131,265,131,270,135,276,
+                        133,285,131,289,137,293,142,299,144,301,136,302,123,310,119,314,
+                        107,319,100,315,91,315,84,313,76,302,77,298,70,289,65,286,57,277,
+                        59,271,54,266,49,265,41" href="./régions/hauts-de-france/Haut-de-France.html" target="_self"
+            alt="Haut De France">
+          <area shape="poly" coords="232,88,240,104,238,123,233,136,230,147,212,152,214,166,206,
+                        173,195,162,185,163,177,155,168,160,137,157,139,142,141,123,131,112,
+                        136,104,176,111" href="régions/Normandie/Normandie.html" target="_self" alt="Normandie">
+          <area shape="poly" coords="134,157,139,163,147,160,149,170,152,186,144,192,129,194,118,
+                        198,109,206,50,186,40,173,56,166,50,155,37,157,35,152,59,147,77,144,
+                        89,139,101,154" href="régions/bretagne/Bretagne.html" target="_self" alt="Bretagne">
+          <area shape="poly" coords="193,165,198,173,211,178,211,189,204,197,196,203,187,200,190,
+                        210,184,227,166,230,149,234,160,245,161,261,144,262,129,256,117,237,
+                        123,227,115,219,104,213,118,200,133,200,139,194,147,195,155,184,152,
+                        171,153,162,165,165,177,160,187,174" href="régions/pays-de-la-loire/Pays-De-La-Loire.html"
+            target="_self" alt="Pays De La Loire">
+          <area shape="poly" coords="286,136,294,147,297,156,296,160,290,166,280,174,276,179,265,
+                        176,257,165,251,171,240,152,237,136,245,131,259,133,270,138,278,139,
+                        286,136,294,147,297,156" href="régions/ile-de-france/Ile-De-France.html" target="_self"
+            alt="Ile De France">
+          <area shape="poly" coords="334,89,335,104,345,104,356,115,366,113,374,117,382,113,395,
+                        118,417,129,441,134,439,144,431,152,431,163,427,174,427,184,425,195,
+                        427,203,417,208,412,193,403,185,395,187,403,185,380,182,369,190,366,
+                        198,356,201,345,196,350,187,337,182,326,187,312,188,305,176,297,166,
+                        302,157,296,147,305,142,302,133,304,123,315,121,315,109,321,104,321,
+                        96" href="régions/grand-est/Grand-Est.html" target="_self" alt="Grand-Est">
+          <area shape="poly" coords="233,144,236,152,233,161,241,160,244,168,252,179,260,173,264,
+                        182,272,182,280,181,284,188,280,196,273,201,281,204,275,212,278,214,
+                        273,220,280,224,284,233,281,243,268,248,265,256,254,260,243,259,225,
+                        262,216,251,208,233,195,233,188,224,193,204,204,203,214,188,212,171,
+                        220,166,216,155,230,150,232,152" href="régions/centre-val-de-loire/Centre Val De Loire.html"
+            target="_self" alt="Centre Val De Loire">
+          <area shape="poly" coords="294,169,297,187,305,181,310,193,337,187,342,203,355,208,364,
+                        201,374,201,380,187,398,190,409,195,412,204,404,208,409,217,411,217,
+                        393,232,393,241,383,249,382,259,377,264,375,262,375,267,361,262,355,
+                        254,347,256,355,254,340,268,332,265,327,268,315,270,319,259,308,254,
+                        307,243,297,249,286,244,284,233,286,224,281,212,283,195,286,184,283,
+                        174" href="régions/bourgogne-franche-comté/Bourgogne-Franche-Comté.html" target="_self"
+            alt="Bourgogne Franche Comté">
+          <area shape="poly" coords="157,235,168,232,179,232,187,228,192,236,204,238,212,254,220,
+                        260,216,270,235,265,244,262,256,264,264,273,267,283,260,291,265,299,
+                        265,310,252,319,251,329,241,331,233,323,225,329,225,339,212,353,214,
+                        359,208,369,203,374,208,369,193,374,179,377,169,380,168,396,174,403,
+                        174,414,169,422,174,414,165,430,153,428,142,423,128,399,141,348,150,
+                        347,142,334,145,308,157,323,163,313,157,302,144,291,152,280,147,270,
+                        158,267,168,262,161,244" href="régions/nouvelle-aquitaine/Nouvelle-Aquitaine.html"
+            target="_self" alt="Nouvelle Aquitaine">
+          <area shape="poly" coords="280,244,286,252,296,257,302,249,307,259,313,264,310,272,316,
+                        276,324,276,331,270,339,272,342,280,347,262,356,260,363,267,366,275,
+                        375,270,383,264,379,278,390,278,396,268,398,264,406,262,404,272,414,
+                        280,406,294,414,297,420,307,415,315,399,321,390,318,388,327,395,332,
+                        383,337,374,342,369,350,364,358,371,366,359,366,353,358,347,363,353,
+                        358,332,359,326,361,332,359,324,361,313,339,305,332,299,334,292,329,
+                        286,335,283,345,273,327,265,345,256,343,254,332,267,313,270,299,264,
+                        289,272,283,260,262,270,260,270,251"
+            href="régions/auvergne-rhone-alpes/Auvergne-Rhone-Alpes.html" target="_self" alt="Auvergne Rhône Alpes">
+          <area shape="poly" coords="249,334,254,351,267,350,273,335,281,350,288,339,296,335,305,
+                        339,312,343,315,353,318,361,324,366,332,364,340,367,331,374,345,377,
+                        337,382,337,390,337,382,332,396,326,401,332,396,315,398,300,411,289,
+                        412,284,423,283,450,268,457,257,450,249,454,238,441,228,441,217,433,
+                        204,430,196,439,204,430,192,438,177,438,168,430,179,414,181,399,171,
+                        395,174,382,185,379,195,379,204,377,214,364,220,359,216,353,227,343,
+                        232,332" href="régions/occitanie/Occitanie.html" target="_self" alt="Occitanie">
+          <area shape="poly" coords="395,323,399,326,395,323,407,327,417,335,412,347,412,358,422,
+                        366,433,369,442,369,436,379,436,382,436,379,415,399,407,411,398,415,
+                        388,419,379,411,369,414,367,403,356,406,355,401,343,406,331,399,342,
+                        393,343,383,350,377,343,364,355,366,367,372,377,367,369,356,377,353,
+                        377,343,387,339,396,335"
+            href="régions/provence-alpes-cote-d-azur/provence-alpes-cote-d-azur.html" target="_self"
+            alt="Provence Alpes Côte d'Azur">
+          <area shape="poly" coords="450,471,450,462,452,449,455,438,455,420,450,403,449,415,455,
+                        420,449,415,439,419,430,423,427,431,427,441,435,447,430,450,435,447,
+                        433,460,441,463,438,465,446,471,438,465" href="régions/corse/Corse.html" target="_self"
+            alt="Corse">
+        </map>
+      </div>
+    </div>
+    <!-- carousel lieux populaires -->
+    <div id="carouselExampleControlsNoTouching" class="carousel slide carousel-fade carousel1position my-5"
+      data-bs-ride="carousel">
+      <h4 class="centrer colorWhite">Lieux populaires</h4>
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="4000">
+          <img src="img/zoo-lille.jpg" class="d-block w-100" alt="Zoo de Lille, renard blanc">
+          <div class="carousel-caption d-none d-md-block">
+            <p>Zoo de Lille, Renard Blanc</p>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="4000">
+          <img src="img/Lille-15.jpg" class="d-block w-100" alt="Lille, Colonne de la Déesse">
+          <div class="carousel-caption d-none d-md-block">
+            <p>Lille, Colonne de la Déesse</p>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="4000">
+          <img src="img/nausicaa.jpg" class="d-block w-100" alt="Boulogne sur mer, Nausicaa">
+          <div class="carousel-caption d-none d-md-block">
+            <p>Boulogne sur mer, Nausicaa</p>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  
+  </main>
+  <footer class="py-5 bg-white d-flex justify-content-center">
+    <!-- carousel logo -->
+    <div id="carouselExampleControlsNoTouching" class="carousel slide carousel-fade carousel2position mx-2 "
+      data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="10000">
+          <img src="./img/icoform/LOGO-AFPA.png" class="d-block w-100" alt="Logo AFPA">
+        </div>
+        <div class="carousel-item" data-bs-interval="10000">
+          <img src="./img/icoform/logo-m2iformation.png" class="d-block w-100" alt="Logo M2I">
+        </div>
+        <div class="carousel-item" data-bs-interval="10000">
+          <img src="./img/icoform/logo-pole-emploi.png" class="d-block w-100" alt="Logo Pole Emploi">
+        </div>
+        <div class="carousel-item" data-bs-interval="10000">
+          <img src="./img/icoform/logo-region-hauts-de-france.png" class="d-block w-100" alt="Logo Huts de France">
+        </div>
+        <div class="carousel-item" data-bs-interval="10000">
+          <img src="./img/icoform/logoatlas.png" class="d-block w-100" alt="Logo Atlas">
+        </div>
+        <div class="carousel-item" data-bs-interval="10000">
+          <img src="./img/icoform/logo_gen.png" class="d-block w-100" alt="Logo G E N">
+        </div>
+      </div>
+
+  </footer>
+  <!-- JS -->
+  <script src="./script/main.js"></script>
+  <script src="./script/jquery.slim.min.js"></script>
+  <script src="./script/popper.min.js"></script>
+  <script src="./script/bootstrap.min.js"></script>
+  <!-- voila les script -->
+</body>
+
+</html>

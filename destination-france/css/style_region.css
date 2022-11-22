@@ -1,0 +1,96 @@
+#fonts{
+    font-family: 'Oswald' sans-serif;
+    font-weight: bold;
+}
+
+.boutonconnexion{
+    grid-row: 1;
+    grid-column: 15 / 20;
+    height: 32px;
+    width: 200px;
+    font-size: 18px;
+}
+
+.boutoninscription{
+    grid-row: 1;
+    grid-column: 18 / 20;
+    height: 32px;
+    width: 200px;
+}
+
+
+#logo {
+    font-family: 'Viga', sans-serif;
+    font-weight: bold;
+    float: left;
+    margin-top: 15px;
+}
+
+.img1 {
+
+    height: 250px;
+    width: 100%;
+}
+
+.azur {
+    text-align: center;
+    margin-top: 1%;
+    font-size: 40px;
+    font-family: oswald;
+    font-weight: normal;
+}
+
+.decou {
+    text-align: center;
+    margin-top: -2%;
+    font-family: oswald;
+    font-weight: normal;
+    color: rgb(113, 113, 113);
+
+}
+
+.photo1 {
+    height: 100px;
+    width: 800px;
+    background-image: url(./../page_region/img/ville_cote_dazur.jpg);
+    background-position: center;
+    margin-left: 38%;
+    margin-top: 100px;
+}
+
+.photo2 {
+    height: 100px;
+    width: 1100px;
+    background-color: #A93A3A;
+    background-image: url(./../page_region/img/ville_cote_dazur.jpg);
+    background-position: bottom;
+    margin-left: 20%;
+    margin-top: 110px;
+}
+
+.pCoteD {
+    height: 100px;
+    width: 800px;
+    margin-left: 38%;
+    margin-top: 20px;
+    text-align: left;
+    font-size: 26px;
+
+}
+
+#Section1 {
+    margin-top: 10%;
+    background-position: center;
+}
+
+.icostyle {
+    width: 2%;
+    margin-top: 1%;
+    margin-left: 1%;
+}
+
+.icostyle {
+    width: 2%;
+    margin-top: 1%;
+    margin-left: 1%;
+}

@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+body{
+    margin: 0;
+}
+
+.bgColorWhite{
+    background-color: #f6f6f6;
+}
+.colorWhite{
+    color: #f6f6f6;
+}
+.fonts {
+    font-family: 'Oswald' sans-serif;
+}
+
+.titre{
+    font-weight: bold;
+    text-align: center;
+}
+.centrer {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.titremain {
+    text-align:center; 
+    font-size: 12px; 
+    color:black
+}
+
+.backgroundpaysage{
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 40em;
+}
+.banniereimage{
+    background-image: url(./../img/bannierepageacceuil.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 40em;
+}
+#demo {
+    margin-left: 10%;
+}
+.carousel1position {
+    margin-left: 42.5%;
+    width: 15%;
+}
+
+.carousel2position{
+    width: 5em;
+    height: 5em;
+}
+.icostyle {
+    width: 2%;
+    margin-top: 1%;
+    margin-left: 1%;
+}
+.centrercarte {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.titrecarte {
+    text-align: center; 
+    font-size: 20pt;
+}
+.blanc {
+    color: white;
+}
+.jaune {
+    color: yellow
+}
+.vert {
+    color: green;
+}
+.rouge {
+    color: red
+}
+.bleu {
+    color: rgb(0, 200, 255)
+}
+.bleuciel {
+    color: rgb(0, 221, 255);
+}
+.fondecran{
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 40em;
+}
+
+.viga{
+    font-family: 'Viga', sans-serif;
+}
+
+.colorDarkOpa{
+    background-color: black;
+    opacity: 0.5;
+}

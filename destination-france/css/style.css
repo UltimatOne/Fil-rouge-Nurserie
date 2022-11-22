@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+body{
+    margin: 0%;
+}
+
+.bgColorWhite{
+    background-color: #f6f6f6;
+}
+.colorWhite{
+    color: #f6f6f6;
+}
+.fonts {
+    font-family: 'Oswald' sans-serif;
+}
+
+.titre{
+    font-weight: bold;
+    text-align: center;
+}
+.centrer {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.titremain {
+    text-align:center; 
+    font-size: 12px; 
+    color:black
+}
+
+.backgroundpaysage{
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 40em;
+}
+.banniereimage{
+    background-image: url(./../img/bannierepageacceuil.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+
+}
+#demo {
+    margin-left: 10%;
+}
+.carousel1position {
+    margin-left: 42.5%;
+    width: 15%;
+}
+
+.carousel2position{
+    width: 5em;
+    height: 5em;
+}
+.icostyle {
+    width: 2%;
+    margin-top: 1%;
+    margin-left: 1%;
+}
+.centrercarte {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.titrecarte {
+    text-align: center; 
+    font-size: 20pt;
+}
+.blanc {
+    color: white;
+}
+.jaune {
+    color: yellow
+}
+.vert {
+    color: green;
+}
+.rouge {
+    color: red
+}
+.bleu {
+    color: rgb(0, 200, 255)
+}
+.bleuciel {
+    color: rgb(0, 221, 255);
+}
+.fondecran{
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 40em;
+}
+
+.viga{
+    font-family: 'Viga', sans-serif;
+}
+
+.colorDarkOpa{
+    background-color: black;
+    opacity: 0.2;
+}
+.bghdf{
+    background-image: url(../Régions/hauts-de-france/img/haut-de-france-baie-de-somme.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.bgara{
+    background-image: url(../Régions/auvergne-rhone-alpes/img/Auvergne-Rhone-Alpes.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.bgbfc{
+    background-image: url(../Régions/bourgogne-franche-comté/img/Bourgogne-franche-compte.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.bgbret{
+    background-image: url(../Régions/bretagne/img/Bretagne.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.bgvdl{
+    background-image: url(../Régions/centre-val-de-loire/img/val-de-loire.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.bgcors{
+    background-image: url(../Régions/corse/img/Corse.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.bggres{
+    background-image: url(../Régions/grand-est/img/grand-est.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.bgnorm{
+    background-image: url(../Régions/Normandie/img/Mont-Saint-Michel.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.bgnoaq{
+    background-image: url(../Régions/nouvelle-aquitaine/img/nouelle-aquitaine.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.bgocci{
+    background-image: url(../Régions/occitanie/img/occitanie.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.bgpdll{
+    background-image: url(../Régions/pays-de-la-loire/img/pays-de-la-loire.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.bgpaca{
+    background-image: url(../Régions/provence-alpes-cote-d-azur/img/provence-alpes-côte-dazur.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+.redcolor {
+    background-color:#A93A3A ;
+}

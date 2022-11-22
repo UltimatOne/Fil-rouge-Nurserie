@@ -1,0 +1,42 @@
+*{
+    overflow-x: hidden;
+}
+
+.bgPageCo{
+    background-image: url(../img/register6.jpg);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: repeat;
+    background-origin: content-box;
+}
+
+.divBackgroundImageCo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+    z-index: 2;
+}
+
+
+.marginPageCo{
+    margin: 13% 0px 0px 12.5%;
+}
+.marginPageCo1{
+    margin: 0px 0px 0px 52%;
+}
+.marginPageCo2{
+    margin: 0px 0px 0px 60%;
+}
+.marginPageCo3{
+    margin: 0px 0px 0px 35%;
+}

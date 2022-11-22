@@ -1,0 +1,10 @@
+.textchantier {
+    text-align: center;
+    font-size: 200%;   
+}
+body {
+    background-repeat: no-repeat;
+    background-position: auto;
+    background-image:url(img/Chantier.jpg);
+    background-size: cover; 
+  }

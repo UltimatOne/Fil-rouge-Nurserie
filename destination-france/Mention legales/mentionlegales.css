@@ -1,0 +1,14 @@
+.titre{
+color:red;
+text-align: center;
+text-decoration: underline;
+}
+
+.para{
+    text-align: center;
+    border: 5px solid red;
+    height: 50 px;
+    width: 62%;
+    margin: auto;
+    border-radius: 25px;
+}

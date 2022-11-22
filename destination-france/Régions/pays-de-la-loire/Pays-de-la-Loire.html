@@ -1,0 +1,161 @@
+<!doctype html)
+   <html>
+      <head>
+         <meta charset="UTF-8">
+         <meta http-equiv="X-UA-Compatible" content="IE=edge">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+            integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+         <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Viga&display=swap" rel="stylesheet">
+         <link rel="stylesheet" href="../../css/bootstrap.min.css">
+         <link rel="stylesheet" href="../../css/style.css">
+         <link rel="stylesheet" href="../../css/navbar.css">
+         <title>Destination France</title>
+       </head>
+
+       <body class="redcolor">
+        <header class="headertest">
+          <nav class="navbar navbar-expand-lg redcolor fixed-top">
+            <div class="container-fluid">
+              <a class="logo navbar-brand" href="../../index.html"><img class="logo" src="../../img/logo3.png" alt="logo"></a>
+              <a href="javascript:history.back()"><img src="../../ico/flecheretour.png" class="mx-2"></a>
+              <h5 class=" viga my-2 colorWhite"><strong>DESTINATION FRANCE</strong> </h5>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse text-light" id="navbarScroll">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll mx-2" style="--bs-scroll-height: 100px;">
+                  <li class="nav-item">
+                    <a class="nav-link active link-light" aria-current="page" href="#">Acceuil</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle link-light" href="#" role="button" data-bs-toggle="dropdown"
+                      aria-expanded="false">
+                      Mon compte
+                    </a>
+                    <ul class="dropdown-menu redcolor">
+                      <li class="navBarLink"><a class="dropdown-item link-light"
+                          href="../../connexion/connexion.html">Connexion</a></li>
+                      <li class="navBarLink"><a class="dropdown-item link-light" data-toggle="modal" data-target="#modalContent"
+                          href="../../connexion/inscription.html#modalZ">Inscription</a></li>
+                      <li>
+                        <hr class="dropdown-divider">
+                      </li>
+                      <li class="navBarLink"><a class="dropdown-item link-light" href="#">Nos reseaux</a></li>
+                    </ul>
+                </ul>
+                <form class="d-flex bg-light my-2" role="search">
+                  <input class="form-control" type="search" placeholder="Rechercher" aria-label="Search">
+                  <button class="btn btn-outline-danger" type="submit">Lancer</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+          <!-- <nav>
+            
+      
+            <input type="text" class="searchbar" placeholder="search...">
+      
+            <img class="boutonconnexion" src="./img/bouton-connexion.png" alt="bouton connexion">
+      
+            <button class="boutonconnexion fonts button" data-modal="modalOne"></button>
+      
+            <a class="navbar-brand" href="./index.html"><img class="logo" src="./img/logo 1.png" alt="logo"></a>
+      
+            <img class="boutoninscription" src="./img/bouton-inscription.png" alt="bouton inscription">
+      
+            <button class="boutoninscription button" data-modal="modalTwo"></button>
+      
+          </nav> -->
+        </header>
+
+      <main>
+        <div class="container-fluide min-vh-11">
+        </div>
+        <div class="bgpdll p-2 text-center text-light">
+          <h1>Pays de la Loire</h1>
+         <img src="pays-de-la-loire.png" alt="Pays de la Loire" class="centrercarte">
+         <map name="reg">
+          <area 
+            target="_self" 
+            alt="#" 
+            title="#"
+            href="../../chantier/chantier.html" 
+            coords="#,#,#*" 
+            shape="circle">
+        </map>
+  </div>
+</main>
+<!-- carousel lieux populaires -->
+<div class="container-fluide d-flex justify-content-center py-3 text-light">
+<div id="carouselExampleControlsNoTouching" class="carousel slide carousel-fade w-25" data-bs-ride="carousel">
+<h4 class="centrer">Lieux populaires</h4>
+<div class="carousel-indicators">
+<button type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+<button type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide-to="1" aria-label="Slide 2"></button>
+<button type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide-to="2" aria-label="Slide 3"></button>
+</div>
+<div class="carousel-inner">
+  <div class="carousel-item active" data-bs-interval="4000">
+    <img src="../../img/zoo-lille.jpg" class="d-block w-100" alt="Zoo de Lille">
+    <div class="carousel-caption d-none d-md-block">
+    <p>Zoo de Lille</p>
+    </div>
+ </div>
+ <div class="carousel-item" data-bs-interval="4000">
+    <img src="../../img/Lille-15.jpg" class="d-block w-100" alt="Lille, Colonne de la Déesse">
+    <div class="carousel-caption d-none d-md-block">
+    <p>Lille, Colonne de la Déesse</p>
+    </div>
+ </div>
+ <div class="carousel-item" data-bs-interval="4000">
+    <img src="../../img/Nausicaa.jpg" class="d-block w-100" alt="Boulogne sur mer, Nausicaa">
+    <div class="carousel-caption d-none d-md-block">
+    <p>Boulogne sur mer, Nausicaa</p>
+  </div>
+  </div>
+<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+  <span class="visually-hidden">Previous</span>
+</button>
+<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+  <span class="visually-hidden">Next</span>
+</button>
+</div>
+</div>
+</div>
+</main>
+</body>
+
+<footer class="py-5 bg-white d-flex justify-content-center">
+<!-- carousel logo -->
+<div id="carouselExampleControlsNoTouching" class="carousel slide carousel-fade carousel2position mx-2 "
+data-bs-ride="carousel">
+<div class="carousel-inner">
+<div class="carousel-item active" data-bs-interval="10000">
+<img src="../../img/icoform/LOGO-AFPA.png" class="d-block w-100" alt="Logo AFPA">
+</div>
+<div class="carousel-item" data-bs-interval="10000">
+<img src="../../img/icoform/logo-m2iformation.png" class="d-block w-100" alt="Logo M2I">
+</div>
+<div class="carousel-item" data-bs-interval="10000">
+<img src="../../img/icoform/logo-pole-emploi.png" class="d-block w-100" alt="Logo Pole Emploi">
+</div>
+<div class="carousel-item" data-bs-interval="10000">
+<img src="../../img/icoform/logo-region-hauts-de-france.png" class="d-block w-100" alt="Logo Huts de France">
+</div>
+<div class="carousel-item" data-bs-interval="10000">
+<img src="../../img/icoform/logoatlas.png" class="d-block w-100" alt="Logo Atlas">
+</div>
+<div class="carousel-item" data-bs-interval="10000">
+<img src="../../img/icoform/logo_gen.png" class="d-block w-100" alt="Logo G E N">
+</div>
+</div>
+
+</footer>
+<!-- JAVA -->
+<script src="./../../script/bootstrap.min.js"></script>
+</html>
